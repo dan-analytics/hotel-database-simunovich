@@ -1,4 +1,4 @@
-# 🏨 Sistema de Gestión Hotelera - Base de Datos SQL
+#  Sistema de Gestión Hotelera - Base de Datos SQL
 
 Este proyecto presenta el diseño y desarrollo de una base de datos relacional para la administración integral de un complejo hotelero. Fue desarrollado como parte del itinerario formativo de **SQL** en la plataforma **Coderhouse**.
 
@@ -20,7 +20,7 @@ Para mantener el orden del historial el proyecto se divide en las siguientes sec
 * **Vistas:** Simplificación de consultas complejas para los departamentos de Recepción y Housekeeping.
 * **Funciones:** Automatización de cálculos financieros (como el IVA) y métricas de consumo de servicios.
 * **Stored Procedures:** Procedimientos para la gestión dinámica de estados de habitaciones y bajas de servicios.
-* **Triggers:** Implementación de auditoría (Log) para rastrear cambios de estado en habitaciones y registro automático de nuevos huéspedes.
+* **Triggers:** Implementación de auditoría para rastrear cambios de estado en habitaciones y registro automático de nuevos huéspedes.
 
 ---
 
@@ -38,7 +38,7 @@ DER Lógico: Diseño original de la estructura.
 
 DER Ingeniería Inversa: Diagrama generado directamente desde MySQL Workbench para asegurar la fidelidad del modelo.
 
-📄 Documentación Destacada
-Script SQL Principal: Contiene la creación de tablas, inserción de más de 12 registros por tabla y toda la lógica programada.
+📄 Documentación 
+Script SQL Principal
 
-Presentación del Proyecto: Archivo PDF con el desglose técnico y funcional de cada objeto creado.
+Presentación del Proyecto: Archivo PDF.
