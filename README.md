@@ -1,30 +1,32 @@
-ENTREGA 1 - Base de Datos – Sistema Hotelero ****
+🏨 Sistema de Gestión Hotelera - Base de Datos SQL
+Este proyecto presenta el diseño y desarrollo de una base de datos relacional para la administración integral de un complejo hotelero. Fue desarrollado como parte del itinerario formativo de SQL en la plataforma Coderhouse.
 
-Este proyecto corresponde al diseño y desarrollo de una base de datos para la gestión de un hotel.
-Forma parte de la primera entrega del curso de SQL de Coderhouse.
+🚀 Estado del Proyecto: 2da Entrega Finalizada
 
-## Temática
-La base de datos que cree permite gestionar huéspedes, habitaciones, reservas, pagos, servicios adicionales
-(restaurante, cafetería, lavandería), empleados y áreas del hotel.
+📂 Estructura del Repositorio
+Para mantener el orden del historial académico, el proyecto se divide en:
 
-## Diagramas Entidad-Relación
+entrega_1/: Documentación inicial y diseño lógico (DER).
+
+entrega_2/: Implementación de objetos avanzados, scripts de automatización y optimización de consultas.
+
+
+Vistas: Simplificación de consultas complejas para Recepción y Housekeeping.
+
+Funciones: Automatización de cálculos financieros (como el IVA) y conteo de servicios.
+
+Stored Procedures: Procedimientos para la gestión dinámica de estados de habitaciones y bajas de servicios.
+
+Triggers: Implementación de auditoría (Log) para rastrear cambios de estado en habitaciones y registro de nuevos huéspedes.
+
+📊 Diagramas Entidad-Relación
 El repositorio incluye:
-- DER del sistema
-- DER obtenido mediante ingeniería inversa desde el script SQL
 
-## Estructura del proyecto
-- hotel_simunovich.sql: script de creación de la base de datos y tablas con descripciones de lo realizado
-- DER HOTEL - SIMUNOVICH.jpg: diagrama entidad-relación
-- DER - ING INVERSA - SIMUNOVICH.jpg: diagrama generado desde MySQL Workbench
-- Presentación 1era Entrega HOTEL - SIMUNOVICH.pdf: presentación del proyecto
+DER Lógico: Diseño original de la estructura.
 
-## Script SQL
-El archivo SQL incluye:
-- Creación de la base de datos
-- Creación de tablas con claves primarias y foráneas
-- Restricciones
-- datos de prueba
-- Consultas SELECT con JOIN etc
+DER Ingeniería Inversa: Diagrama generado directamente desde MySQL Workbench para asegurar la fidelidad del modelo.
 
-## Enlaces
-- Script SQL: ver archivo hotel_simunovich.sql
+📄 Documentación Destacada
+Script SQL Principal: Contiene la creación de tablas, inserción de más de 12 registros por tabla y toda la lógica programada.
+
+Presentación del Proyecto: Archivo PDF con el desglose técnico y funcional de cada objeto creado.
