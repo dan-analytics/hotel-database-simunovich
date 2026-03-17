@@ -2,7 +2,7 @@
 
 Este proyecto presenta el diseño y desarrollo de una base de datos relacional para la administración integral de un complejo hotelero. Fue desarrollado como parte del itinerario formativo de **SQL** en la plataforma **Coderhouse**.
 
----
+
 
 ##  Estado del Proyecto: 2da Entrega Finalizada
 
@@ -13,7 +13,7 @@ Para mantener el orden del historial el proyecto se divide en las siguientes sec
 * **[entrega_1/](./entrega_1/)**: Documentación inicial, creación de tablas y diseño lógico (DER).
 * **[entrega_2/](./entrega_2/)**: Implementación de objetos avanzados, scripts de automatización y optimización de consultas.
 
----
+
 
 ## 🛠️ Objetivos de la Entrega Actual
 
@@ -22,14 +22,13 @@ Para mantener el orden del historial el proyecto se divide en las siguientes sec
 * **Stored Procedures:** Procedimientos para la gestión dinámica de estados de habitaciones y bajas de servicios.
 * **Triggers:** Implementación de auditoría para rastrear cambios de estado en habitaciones y registro automático de nuevos huéspedes.
 
----
 
 
 ##  Documentación 
 * **Script SQL:** Contiene la creación de tablas, inserción de datos de prueba y toda la lógica programada.
 * **Presentación PDF:** Desglose técnico y funcional de cada objeto creado para esta entrega.
 
----
+
 **Desarrollado por:** Daniela Simunovich  
 **Curso:** SQL - Coderhouse
 El repositorio incluye:
