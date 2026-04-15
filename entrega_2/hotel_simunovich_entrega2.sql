@@ -1,5 +1,4 @@
 DROP DATABASE IF EXISTS HOTEL;
-
 CREATE DATABASE IF NOT EXISTS HOTEL;
 USE HOTEL;
 
@@ -49,8 +48,10 @@ CREATE TABLE reserva (
     estado VARCHAR(30) NOT NULL,
     id_huesped INT NOT NULL,
     id_habitacion INT NOT NULL,
+    id_empleado INT,
     FOREIGN KEY (id_huesped) REFERENCES huesped(id_huesped),
-    FOREIGN KEY (id_habitacion) REFERENCES habitacion(id_habitacion)
+    FOREIGN KEY (id_habitacion) REFERENCES habitacion(id_habitacion),
+    FOREIGN KEY (id_empleado) REFERENCES empleado(id_empleado)
 );
 
 -- Sirve para llevar el control del monto abonado, la fecha y el método de pago utilizado por reserva.
@@ -147,20 +148,22 @@ VALUES
 (301, 3, 'Mantenimiento', 85000.00, 'Suite con vista');
 
 
-INSERT INTO reserva (fecha_reserva, fecha_ingreso, fecha_salida, estado, id_huesped, id_habitacion) 
+INSERT INTO reserva (fecha_reserva, fecha_ingreso, fecha_salida, estado, id_huesped, id_habitacion, id_empleado) 
 VALUES
-('2026-01-10', '2026-02-01', '2026-02-05', 'finalizada', 4, 5),
-('2026-02-15', '2026-03-01', '2026-03-10', 'finalizada', 5, 6),
-('2026-03-01', '2026-03-15', '2026-03-20', 'finalizada', 6, 7),
-('2026-04-01', '2026-05-20', '2026-05-25', 'confirmada', 7, 8),
-('2026-04-10', '2026-06-10', '2026-06-15', 'confirmada', 8, 9),
-('2026-05-05', '2026-07-01', '2026-07-10', 'confirmada', 9, 10),
-('2026-05-10', '2026-08-15', '2026-08-20', 'confirmada', 10, 11),
-('2026-01-01', '2026-01-05', '2026-01-10', 'cancelada', 11, 12),
-('2026-05-01', '2026-05-10', '2026-05-15', 'confirmada',1 , 2),
-('2026-04-20', '2026-05-01', '2026-05-05', 'finalizada', 2, 1),
-('2026-04-22', '2026-05-10', '2026-05-15', 'confirmada', 3, 3),
-('2026-04-25', '2026-06-01', '2026-06-03', 'cancelada', 2, 4 );
+('2026-01-10', '2026-02-01', '2026-02-05', 'finalizada', 4, 5, 1),
+('2026-02-15', '2026-03-01', '2026-03-10', 'finalizada', 5, 6, 2),
+('2026-03-01', '2026-03-15', '2026-03-20', 'finalizada', 6, 7, 3),
+('2026-04-01', '2026-05-20', '2026-05-25', 'confirmada', 7, 8, 3),
+('2026-04-10', '2026-06-10', '2026-06-15', 'confirmada', 8, 9, 8),
+('2026-05-05', '2026-07-01', '2026-07-10', 'confirmada', 9, 10, 7),
+('2026-05-10', '2026-08-15', '2026-08-20', 'confirmada', 10, 11, 4),
+('2026-01-01', '2026-01-05', '2026-01-10', 'cancelada', 11, 12, 7),
+('2026-05-01', '2026-05-10', '2026-05-15', 'confirmada',1 , 2, 9),
+('2026-04-20', '2026-05-01', '2026-05-05', 'finalizada', 2, 1, 6),
+('2026-04-22', '2026-05-10', '2026-05-15', 'confirmada', 3, 3, 2),
+('2026-04-25', '2026-06-01', '2026-06-03', 'cancelada', 2, 4, 1
+
+);
 
 -- Consulta para visualizar todas las reservas cargadas y que estén bien creadas hasta ahora.
 -- Obviamente hice lo mismo con todas, pero para que se vea una de ejemplo :)
@@ -204,7 +207,7 @@ VALUES
 (9, 7), 
 (10, 8),
 (11, 9), 
-(12, 10),
+(12, 4),
 (4, 1),
 (4, 4),
 (3, 1),
@@ -463,6 +466,6 @@ SELECT * FROM log_cambios_habitacion;
 INSERT INTO huesped (nombre, apellido, documento) VALUES ('Pepito', 'Pérez', 'DNI999');
 SELECT * FROM log_nuevos_huespedes;
 
--- Y listo!!! :)
 
+-- Y listo!!! :)
 
