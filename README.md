@@ -11,7 +11,7 @@ Este proyecto presenta el diseño y desarrollo de una base de datos relacional p
 Para mantener el orden del historial el proyecto se divide en las siguientes secciones:
 
 * **[entrega_1/](./entrega_1/)**: Documentación inicial, creación de tablas y diseño lógico (DER).
-* **[entrega_2/](./entrega_2/)**: Implementación de objetos avanzados, scripts de automatización y optimización de consultas.
+* **[entrega_2/](./entrega_2/)**: Implementación de objetos avanzados, scripts de automatización y optimización de consultas. Se actualiza con registro de backups y graficos de BI.
 * EN ENTREGA 2 SE ENCUENTRA EL ARCHIVO ACTUALIZADO CORRESPONDIENTE A LA ENTREGA FINAL.
 
 
