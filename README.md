@@ -4,7 +4,7 @@ Este proyecto presenta el diseño y desarrollo de una base de datos relacional p
 
 
 
-##  Estado del Proyecto: 2da Entrega Finalizada
+##  Estado del Proyecto: Finalizado
 
 
 ## Estructura del Repositorio
@@ -12,6 +12,7 @@ Para mantener el orden del historial el proyecto se divide en las siguientes sec
 
 * **[entrega_1/](./entrega_1/)**: Documentación inicial, creación de tablas y diseño lógico (DER).
 * **[entrega_2/](./entrega_2/)**: Implementación de objetos avanzados, scripts de automatización y optimización de consultas.
+* EN ENTREGA 2 SE ENCUENTRA EL ARCHIVO ACTUALIZADO CORRESPONDIENTE A LA ENTREGA FINAL.
 
 
 
