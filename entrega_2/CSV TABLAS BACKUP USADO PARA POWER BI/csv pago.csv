@@ -1,0 +1,13 @@
+"id_pago";"fecha_pago";"monto";"metodo_pago";"id_reserva"
+1;"2026-02-05";180000.0;"Efectivo";5
+2;"2026-03-10";432000.0;"Tarjeta de Crédito";6
+3;"2026-03-20";325000.0;"Transferencia";7
+4;"2026-05-25";340000.0;"Mercadopago";8
+5;"2026-06-15";475000.0;"Tarjeta de Débito";9
+6;"2026-07-10";810000.0;"Transferencia";10
+7;"2026-08-20";600000.0;"Efectivo";11
+8;"2026-05-15";225000.0;"Tarjeta de Crédito";12
+9;"2026-04-28";560000.0;"Mercadopago";4
+10;"2026-05-02";365000.0;"Tarjeta de débito";1
+11;"2026-05-01";240000.0;"Tarjeta de crédito";2
+12;"2026-05-03";325000.0;"Transferencia";3

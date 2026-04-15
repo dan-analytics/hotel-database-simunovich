@@ -1,0 +1,13 @@
+"id_empleado";"nombre";"apellido";"cargo";"turno";"id_area"
+1;"Daniela";"Simunovich";"Recepcionista";"Tarde";1
+2;"Génesis";"Sanchez";"Mucama";"Mañana";3
+3;"Marcos";"Paz";"Mucama";"Mañana";3
+4;"Elena";"Funes";"Mucama";"Tarde";3
+5;"Sergio";"Borjas";"Cocinero";"Tarde";4
+6;"Sofía";"Zárate";"Moza";"Mañana";4
+7;"Hugo";"Machado";"Mozo";"Tarde";4
+8;"Edward";"Montes";"Recepcionista";"Mañana";1
+9;"Carlos";"Pérez";"Gerente";"Completo";2
+10;"Ana";"Martínez";"Mucama";"Tarde";3
+11;"Juan";"López";"Cocinero";"Mañana";4
+12;"Miguel";"Yanez";"Técnico";"Noche";5

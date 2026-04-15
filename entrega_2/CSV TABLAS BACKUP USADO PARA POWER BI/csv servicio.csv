@@ -1,0 +1,10 @@
+"id_servicio";"nombre_servicio";"descripcion";"precio"
+1;"Minibar";"Consumo de bebidas en la habitación";4500.0
+2;"Estacionamiento";"Cochera privada cubierta";7000.0
+3;"Spa & Sauna";"Acceso al sector de relax";15000.0
+4;"Traslado Aeropuerto";"Servicio de transfer privado";25000.0
+5;"Late Check-out";"Salida después de las 11:00 hs";12000.0
+6;"Early Check-in";"Entrada antes de las 15:00 hs";12000.0
+7;"Guía Turístico";"Tour por el centro histórico";18000.0
+8;"Cena Romántica";"Menú de 3 pasos en terraza";35000.0
+9;"Desayuno buffet";"Servicio de desayuno en restaurante";20000.0
