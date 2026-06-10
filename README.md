@@ -16,7 +16,7 @@ Para mantener el orden del historial el proyecto se divide en las siguientes sec
 
 
 
-## 🛠️ Objetivos de la Entrega Actual
+## 🛠️ Objetivos de la Entrega 
 
 * **Vistas:** Simplificación de consultas complejas para los departamentos de Recepción y Housekeeping.
 * **Funciones:** Automatización de cálculos financieros (como el IVA) y métricas de consumo de servicios.
